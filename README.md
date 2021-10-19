@@ -7,11 +7,11 @@ This algorithm also offers starvation free execution of processes.
 
 Characteristics
 
-➢ Round robin is a pre-emptive algorithm 
-➢ The CPU is shifted to the next process after fixed interval time, which is called time quantum/time slice. 
-➢ The process that is preempted is added to the end of the queue. 
-➢ Round robin is a hybrid model which is clock-driven 
-➢ Time slice should be minimum, which is assigned for a specific task that needs to be processed. However, it may differ OS to OS. 
-➢ It is a real time algorithm which responds to the event within a specific time limit. 
-➢ Round robin is one of the oldest, fairest, and easiest algorithm. 
-➢ Widely used scheduling method in traditional OS.
+Round robin is a pre-emptive algorithm 
+The CPU is shifted to the next process after fixed interval time, which is called time quantum/time slice. 
+The process that is preempted is added to the end of the queue. 
+Round robin is a hybrid model which is clock-driven 
+Time slice should be minimum, which is assigned for a specific task that needs to be processed. However, it may differ OS to OS. 
+It is a real time algorithm which responds to the event within a specific time limit. 
+Round robin is one of the oldest, fairest, and easiest algorithm. 
+Widely used scheduling method in traditional OS.
